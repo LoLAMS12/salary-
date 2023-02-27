@@ -1,0 +1,60 @@
+@import url("MainStyle.css");
+
+.ServicesIcons
+{
+	float:left;
+}
+
+.HomePageLink2
+{
+	margin-right:15px;
+	float:right;
+}
+.collapsetable td
+{
+	text-align:left;
+}
+
+table
+{
+	text-align:left;
+}
+
+select.TabularFields{
+	float:left;
+}
+
+select{
+	float:left;
+}
+
+.CalenderDiv .datePicker
+{
+	float:left;
+}
+.CalenderDiv .trigger
+{
+	float:left;
+}
+
+.enabled_img
+{
+	float:left;
+}
+
+
+.pagingationContainer input[type=text]{
+	margin:0 0 0 20px;
+}
+.pagingationContainer input[type=button]{
+	margin-left:-10px;	
+}
+.Reload_Captcha{
+	float: right;
+    padding-right: 25px;
+	background-color: Transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+}

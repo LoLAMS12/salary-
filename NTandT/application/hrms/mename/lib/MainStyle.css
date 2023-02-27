@@ -1,0 +1,918 @@
+/* Major tages ----------------------------------------------- Start */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url("../../DB/skins/Light/font/OpenSans-Regular.ttf") format("truetype");
+}
+body
+{
+	font-family:Tahoma;
+	font-size:10px;
+	line-height:16px;
+	margin-left:0px;
+	margin-right:0px;
+	margin-top:0px;
+}
+IFRAME
+{
+	border:0px;
+	border-top:1px inset #cfdae0;
+	width: 100%;
+	vertical-align:top;
+	padding-top:0px;
+	font-family:Tahoma;
+	font-size:11px;
+	margin:0px;
+	padding:0px;
+	border-bottom:1px inset #cfdae0;
+	overflow-x: hidden;
+}
+
+.dummyPageIframe
+{
+	height:0px;
+	width:0px;
+	display:none;
+	visibility:hidden;
+}
+.oDiv,#oDiv
+{
+	border:1px inset #cfdae0;
+	width: 100%;
+	overflow-x: hidden;
+	overflow-y:scroll ;
+	vertical-align:top;
+	padding-top:0px;
+	font-family:Tahoma;
+	font-size:11px;
+	
+}
+IFRAME > body
+{
+	margin-top:0px;
+	
+}
+b
+{
+	font-size:9px;
+}
+
+a:link
+{
+	text-decoration: none;
+	color: #2c2c2c;
+	font-size: 10px;
+}
+a:visited
+{
+	text-decoration: none;
+	color: #2c2c2c;
+	font-size: 10px;
+}
+a:hover
+{
+	text-decoration: underline;
+	color: #990000;
+}
+table
+{
+	font-size:10px;
+	font-family:tahoma;
+	line-height:15px;
+}
+pre
+{
+	font-size:12px;
+	font-family:tahoma;
+}
+/* Major tages -----------------------------------------------  End  */
+.searchABcFilter
+{
+	border:0;
+	cellspacing:0px;
+	cellpadding:0px;
+	width:100%;
+	border:1px solid #80b0d2;
+}
+.searchABcFilter td
+{
+	border:0px solid #e5eefc;
+	padding:2px;
+	line-height:18px;
+}
+.searchABcFilter tr
+{
+	background:#f3f8fe;
+}
+.searchABcFilter tr:nth-child(even)
+{
+	background:#FFF;
+}
+.searchABcFilter td
+{
+	background:#FFFFFF;
+}
+.searchABcFilter tr:first-child td:nth-child(odd)
+{
+	background:#80b0d2;
+}
+.searchABcFilter tr:nth-child(even) td:nth-child(even)
+{
+	color:#FFF !important;
+	background:#80b0d2;
+}
+.searchABcFilter  tr:nth-child(even) td:nth-child(even) .menuselected,.searchABcFilter tr:first-child td:nth-child(odd) .menuselected
+{
+	color:#FFF !important;
+}
+
+
+body.ListBody
+{
+	line-height:15px;
+	font-family:Tahoma;
+	font-size:10px;
+	margin :0 0 0 0px;
+}
+
+.CollapseScreen
+{
+	border-collapse:collapse;
+	border:0px;
+	width:100%;
+}
+.CollapseScreen td
+{
+	border:0px solid #e5eefc;
+	padding:2px;
+	line-height:18px;
+}
+.CollapseScreen td td
+{
+	border:0;
+}
+.CollapseScreen tr
+{
+	background:#f0f6fe;
+}
+.CollapseScreen tr tr
+{
+	background:none;
+}
+.CollapseScreen tr:nth-child(even)
+{
+	background:#FFF;
+}
+.CollapseScreen tr:hover
+{
+	background:#f6f7f8;
+}
+
+
+.collapsetable
+{
+	border-collapse:collapse;
+	border:0;
+	cellspacing:0px;
+	cellpadding:2px;
+	width:100%;
+}
+.collapsetable td
+{
+	border:1px solid #D5D5D5;
+	padding:2px;
+}
+.collapsetable tr:hover
+{
+	background:#e1e8ec;
+}
+
+.collapseHeaderTable
+{
+	border-collapse:collapse;
+	border:0;
+	cellspacing:0px;
+	cellpadding:2px;
+	width:100%;
+	background-color: #c3d0d8;
+}
+.collapseHeaderTable td
+{
+	border:1px solid #FFFFFF;
+	padding:2px;
+	text-align: center;
+	height: 18px;
+}
+.HeaderTD
+{
+	padding:2px;
+	text-align: center;
+	height: 18px;
+	background-color: #c3d0d8;
+}
+.TDHeaderLabel
+{ 
+	font-weight: bold; 
+	font-size:11px; 
+	padding:2px; 
+	display:block;
+	width:auto;
+	text-align:center;
+}
+
+a.ServicesTitleLink
+{
+	font-size:13px;
+	font-weight:bold;
+	color:#FF9900;
+	font-family:Tahoma;
+}
+.AnnouncementTab {
+	color: #333333; 
+	font-family:Tahoma;
+	font-size:10px;
+	background:#d7dcdd;
+	height: 22px;
+}
+.Marguee
+{
+	font-size:10px;
+	font-family:Tahoma;
+	color:#FFF;
+	cursor: pointer;
+}
+
+.d_gray {
+	color: #2c2c2c; 
+	font-size:10px;
+	font-family:Tahoma;
+	height: 33px;
+	width:100%;
+}
+.CopyRight
+{
+	margin:0px;
+}
+.ServicesIcons
+{
+	height:120px;
+	width:100px;
+	padding:0px;
+}
+a.HomePageLink
+{
+	margin-left:20px;
+	width:150px;
+	text-decoration:none;
+	font-weight:bold;
+	color:#FFF;
+}
+a.HomePageLink2
+{
+	width:130px;
+	text-decoration:none;
+	font-weight:bold;
+	color:#FFF;
+}
+.mytable
+{
+	border:0px;
+}
+.ListHeader
+{
+	width: 100%;
+	background-color: #cfdae0;
+	border:1px outset #c3d0d8;
+	text-align: center;
+	height: 22px;
+}
+.ManagersHeaderTD
+{
+	background-color: #E8E8E8;
+	text-align: center;
+	height: 22px;
+}
+.mybuttonb
+{
+	font-family:Tahoma;
+	font-size:10px;
+	color: #003300;
+	padding-left:5px;
+	padding-right:5px;
+	background-color: #cfdae0;
+	border: 1px solid #7d94a2;
+	cursor:pointer;
+}
+
+input[disabled]
+{
+	font-family:Tahoma;
+	font-size:10px;
+	color: #999999;
+	background-color: #F5F5F5;
+	cursor:default;
+}
+.disabledInput
+{
+	font-family:Tahoma;
+	font-size:10px;
+	color: #999999;
+	background-color: #F5F5F5;
+	cursor:default;
+}
+
+.mybuttonBig
+{
+	font-family:Tahoma;
+	font-size:10px;
+	color: #003300;
+	/*min-width: 150px;
+	padding-left:5px;
+	padding-right:5px;*/
+	background-color: #cfdae0;
+	border: 1px solid #7d94a2;
+	cursor:pointer;
+}
+.myinputfields {
+	font-family:Tahoma;
+	font-size:10px;
+	font-weight: normal;
+	color: #003300;
+	border: 1px solid #7d94a2;
+	display:inline-block;
+}
+input.myinputfields {
+	min-height:14px;
+}
+select.myinputfields {
+	min-height:16px;
+}
+
+.TabularFields {
+	font-family:Tahoma;
+	font-size:10px;
+	font-weight: normal;
+	color: #003300;
+	display: compact;
+	border: 1px solid #7d94a2;
+	height: 1.4em;
+	width:97%;
+}
+
+select.TabularFields{
+	width:80%;
+	border: 1px solid #7d94a2;
+	height: 18px;
+	resize: none;
+	size:portrait;
+}
+textarea.TabularFields{
+	border: 1px solid #7d94a2;
+	height: 17px;
+	resize: none;
+}
+/* Login Page ------------------------------------------------ Start */
+.LoginFormDiv
+{
+    background: white;
+    position: relative;
+}
+
+  .LoginFormDiv:after{
+    width: 50px;
+    content: " ";
+    height: 100%;
+    background: url(../../DB/skins/Light/login/shadow-left.png);
+    position: absolute;
+    background-size: 100% 100%;
+    left: -47px;
+    top: 0;
+    background-repeat: no-repeat;
+  }
+
+  .LoginFormDiv:before{
+    width: 50px;
+    content: " ";
+    height: 100%;
+    background: url(../../DB/skins/Light/login/shadow-right.png);
+    position: absolute;
+    background-size: 100% 100%;
+    right: -47px;
+    top: 0;
+    background-repeat: no-repeat;
+  }
+.LoginFormHeader
+{
+	background:#dfe1e2;
+	color:#FFF;
+	font-size:13px;
+	border-radius:5px 5px 0px 0px;
+	line-height:30px;
+	height:30px;
+	text-align:center;
+}
+
+.LoginTable{
+	/* line-height:20px; */
+	margin: 0 auto;
+	width: 75%;
+	padding: 25px 0px;
+}
+.LoginTable td{
+	font-size: 10px;
+	color:#444;
+	font-family: "Open Sans";
+	margin:0px;
+}
+.LoginTable label{
+	margin-bottom: 5px;
+	display: block;
+	color: #484a4e;
+	font-size: 10px;
+	font-family: "Open Sans";
+}
+#language_div{
+	color: #484a4e;
+	margin-top: 10px;
+}
+.copyRightHR
+{
+	border:0px;
+	height:1px;
+	box-shadow: 0px -10px 10px 0px #999999;
+}
+
+
+
+.LoginInput
+{
+	border: 0.75px solid #E1E5F1;
+	width: 89%;
+	margin:0px;
+	/* border-radius:5px; */
+	display: block;
+	padding: 5px 10px !important;
+	margin-bottom: 10px;
+	font-size:11px;
+}
+
+.login{
+    background: none;
+    border: 1px solid #008CFF;
+    color: #008CFF;
+    cursor: pointer;
+    border-radius: 25px;
+    font-family: "Open Sans";
+    padding: 7px 30px;
+    height: auto !important;
+    font-size: 10px;
+    margin-top: 20px;
+}
+
+.logo{
+	width:100px;
+	float:right;
+	margin-bottom: 20px;
+	margin-right: 20px;
+}
+.clearfix{
+	clear:both
+}
+*{
+	outline:0 !important;
+}
+.loginHeader{
+    font-size: 13px !important;
+    margin-bottom: 0px;
+    font-family: tahoma;
+    padding-top: 19px;
+}
+
+.loginHeader b{
+    font-size: 13px !important;
+}
+#language_div [type=radio]{
+	vertical-align: middle;
+}
+.rememberInfo {
+	color: #696969 !important;
+	font-size:8px !important;
+}
+.rememberInfo input[type='checkbox']{
+	vertical-align: middle;
+    margin-right: 5px !important;
+}
+.rememberInfo input[type='checkbox']:after{
+	width: 10px;
+	height: 10px;
+	line-height: 10px;
+	vertical-align: middle;
+}
+#language_div span{
+	padding: 5px 3px;
+	margin-top: 10px;
+}
+#language_div span[is_selected]{
+	cursor: pointer;
+}
+#language_div span[is_selected=checked]{
+	border-bottom: 2px solid #008CFF;
+}
+
+#language_div span[is_selected]:hover{
+	border-bottom: 2px solid #008CFF;
+}
+/* Login Page ------------------------------------------------  End  */
+select
+{
+	font-family:Tahoma;
+	font-size:10px;
+	font-weight: normal;
+	color: #003300;
+	/*height: 19px;*/
+	border: 1px solid #7d94a2;
+	display:inline;
+}
+TEXTAREA
+{
+	font-family:Tahoma;
+	font-size:10px;
+	font-weight: normal;
+	color: #003300;
+	border: 1px solid #7d94a2;
+	width:98%;
+	resize: none;
+}
+.myinputfieldtrans {
+	font-family:Tahoma;
+	font-size:10px;
+	font-weight: normal;
+	color: #003300;
+	background-color: transparent;
+	border: 0px solid;
+	display:inline-block;
+}
+
+.enabled_img
+{
+	cursor:pointer;
+	width:18px;
+	height:17px;
+	border-collapse:collapse; 
+	display:compact;
+	z-index:901;
+}
+.disabled_img
+{
+	width:18px;
+	height:17px;
+}
+tr.DisabledLine a
+{
+	color:#999;
+}
+td.SelectedLink
+{
+	color:#1b94e3;
+}
+td.BigStrongFontSize
+{
+	color:#2c2c2c;
+	font-size:12px;
+	font-weight:bold;
+}
+td.BigFontSize
+{
+	color:#2c2c2c;
+	font-size:12px;
+}
+td.WhiteFont
+{
+	color:#FFFFFF;
+}
+
+.PageDescHeader
+{
+	font-family: Tahoma;
+	font-size: 10px;
+	font-weight:bold;
+	background-color: #cfdae0;
+	min-height: 20px;
+	text-align: center;
+}
+
+
+.ReportLoadingImageDiv
+,.ReportLoadingImageDiv_iframe
+{
+	position:absolute;
+	left:0px;
+	top:0px;
+	z-index:999990;
+	width:100%;
+	height:100%;
+}
+
+.LoadingImageBox
+{
+	position:absolute;
+	top:45%;
+	left:40%;
+	width:250px;
+	height:100px;
+	text-align:center;
+	background:#FFFFFF;
+	border:1px solid #CCC;
+}
+
+.calendars-disable
+{
+	display:none!important;
+}
+.CalenderDiv
+{
+	width:74px;
+	padding:0px;
+	margin:0px;
+	border:0px solid #000;
+}
+.CalenderDiv input
+{
+	width:51px;
+}
+
+.trigger
+{
+	display:inline-block;
+}
+
+/* ### Main Page Style ----------------------------------------------------------------------- Start ### */
+#security_TB_overlay {
+	position: absolute;
+	z-index:1000;
+	top: 0px;
+	left: 0px;
+	height:100%;
+	width:100%;
+	background:#000;
+	filter:alpha(opacity=85);
+	-moz-opacity: 0.85;
+	opacity: 0.85;
+	display:none;
+}
+.MenaBox_overlay, .Main_menu_overlay {
+	position: absolute;
+	z-index:1000;
+	top: 0px;
+	left: 0px;
+	height:100%;
+	width:100%;
+	background:#181818;
+	filter:alpha(opacity=50);
+	-moz-opacity: 0.50;
+	opacity: 0.50;
+}
+#security_div {
+	position: absolute;
+	z-index:1001;
+	top: 50%;
+	left: 50%;
+	padding:0px;
+	margin:0px;
+}
+.security_div_container {
+	position:absolute;
+	width:350px;
+	height:105px;
+	border: 3px solid #333;
+	padding:0px;
+	margin:0px;
+	top: -52px;
+	left: -155px;
+}
+.security_div_header {
+	width:auto;
+	height:22px;
+	background-color:#CCCCCC;
+	vertical-align:middle;
+	font-size:12px;
+	font-weight: bold;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+#security_lock_img {
+	position:absolute;
+	margin:0 20px;
+	top: -35px;
+	left: -105px;
+}
+#security_iframe {
+	width:100%;
+	height:85px;
+	padding:0px;
+	margin:0px;
+	border:0px;
+}
+#MenaBox_div, #Main_menu_div {
+	position: absolute;
+	z-index:1001;
+	top: 50%;
+	left: 50%;
+	padding:0px;
+	margin:0px;
+}
+.MenaBox_div_container, .Main_menu_div_container {
+	height:180px;
+	position:absolute;
+	padding:0px;
+	margin:0px;
+}
+.MenaBox_div_header, .Main_menu_div_header {
+	width:auto;
+	height:22px;
+	background-color:#CCCCCC;
+	vertical-align:middle;
+	font-size:11px;
+	font-weight: bold;
+	padding-left: 5px;
+	padding-right: 5px;
+	margin:0px;
+	vertical-align:middle;
+}
+#MenaBox_iframe {
+	height:auto;
+	padding:0px;
+	margin:0px;
+	overflow:hidden;
+	width:auto;
+	border:0px;
+}
+#MenaBox_iframe,.MenaBox_div_container .MainMenuPopUpBody{
+	background:#FFF;
+}
+.MenaBox_close, .Main_menu_close {
+	position:absolute;
+	top:0px;
+	cursor: pointer;
+}
+
+.close_button
+{
+	position:absolute;
+	top:5px;
+	cursor:pointer;
+}
+a.reset_password 
+{
+	font-family: "Tahoma" !important;
+	font-weight: normal !important;
+	color: #222 !important;
+	margin-left:4px;
+	text-decoration:underline !important;
+}
+
+a:hover.reset_password
+{
+	font-family: "Tahoma" !important;
+	color: #990000 !important;
+	margin-left:4px;
+	text-decoration:underline !important;
+}
+/* ### Main Page Style -----------------------------------------------------------------------  End  ### */
+
+.reportHeaderName{
+	font-size:23px;
+	font-weight:bold;
+}
+.reportTitle{
+	font-size:17px;
+	font-weight:bold;
+}
+
+a.generalLink{
+	text-decoration: none;
+	color: #990000;
+	font-size: 12px;
+}
+a.generalLink:hover
+{
+	text-decoration: underline;
+	color: #990000;
+}
+
+table.tableSections
+{
+	border-right:1px solid #D5D5D5;
+}
+table.tableSections tr.header
+{
+	background-color:#80b0d2;
+	color:#ffffff;
+	font-weight:bold;
+}
+#oDiv
+{
+	border:none;
+}
+
+.box_color
+{
+	background-color: #e6ecf0;
+}
+
+
+.pagingationContainer span,.pagingationContainer input[type=text]{
+	border-radius:4px;
+	display:inline-block;
+	border:solid 1px #ccc;
+	padding:3px;
+	width:35px;
+}
+.pagingationContainer input[type=text]{
+	width:40px;
+}
+.pagingationContainer input[type=button]{
+	color: #FFF;
+	height:21px !important;
+	border-radius:4px; 
+	background:#ccc;	
+	min-width:40px;
+	border:0px;
+	padding-left:5px;	
+	padding-right:5px;
+	cursor:pointer;
+}
+.pagingationContainer .currentPage{
+	background: #0358cb;
+	border:solid 1px #0358cb;
+	color:#fff;
+	font-weight:bold;
+}
+
+.myinputfieldsdis{
+	background-color: #ededed;
+	font-family:Tahoma;
+	font-size:10px;
+	font-weight: normal;
+	color: #003300;
+	border: 1px solid #7d94a2;
+	display:inline-block;
+}
+
+.reportBody
+{
+	background: none;
+	background-color:#FFF;
+}
+.reportTable{
+	width:100%;
+	margin-left:auto;
+	margin-right:auto;
+	border-width:1px;
+	border-collapse:collapse;
+	bordercolor:#000;
+}
+.reportTable td{
+	border: 2px solid #000;
+	border-left-width:2px ;
+	border-top-width:2px ;
+	border-right-width:2px ;
+	border-bottom-width:2px ;
+	border-style:solid;
+	border-color:black;
+}
+
+.reportTable .reportHeader,.reportPageBreakBefore .reportHeader{
+	background-color:#e4e4e4;
+	text-align:center;
+	line-height:18px;
+}
+.reportHeaderTD{
+	background-color:#e4e4e4;
+	line-height:18px;
+}
+
+.reportTableNoBorder td{
+border:0px	!important;
+}
+.detailsPopUpHeader font{
+	font-size:15px !important;
+}
+input,
+input:-webkit-autofill ,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus{
+     background-color: white !important;
+}
+.forgotPassLink
+{
+	font-size:9px !important;
+	color: #008CFF !important;
+	line-height:22px;
+	
+}
+.mandatoryfields{
+    white-space: nowrap;
+    vertical-align: top;
+}
